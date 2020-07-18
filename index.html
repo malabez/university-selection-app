@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gofickle</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e88210b55c.js"></script>
+  </head>
+  <body>
+    <!-- navigation  -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://yt3.ggpht.com/-RZYi5isxH_M/AAAAAAAAAAI/AAAAAAAAAAA/rmWpoe2qZzI/s900-c-k-no/photo.jpg"
+            width="30"
+            height="30"
+            class="d-inline-block align-top mr-2"
+            alt=""
+          />
+          gofickle</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse float-right"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shortlisteds.html">My Universities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Predict</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="article.html">FeedBack</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="account.html">My Account</a>
+                <a class="dropdown-item" href="faq.html">Faq</a>
+                <a class="dropdown-item" href="policy.html">Privacy Policy</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log Out</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation -->
+    <div class="container main-content">
+      <div class="row">
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color:#FFCC32;">12</h2>
+              <h6 class="text-secondary">Shortlisted Universities</h5>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color: #4285F4;">6</h2>
+              <h6 class="text-secondary">Applied Universities</h5>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color:#B366F6;">3</h2>
+              <h6 class="text-secondary">Admits Received</h5>  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-noborder">
+            <div class="card-body text-center">
+              <h2 class="" style="color:#E37400;">24</h2>
+              <h6 class="text-secondary">Documents Uploaded</h5>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shortlisted university -->
+      <div class="row">
+        <div class="col">
+          <div class="mt-5 ">
+          <div class="float-left">
+          <h3>Shortlisted Universities</h3>
+          <hr class="custom-hr" align="left" width="20%">
+          </div>
+          <button class="float-right btn btn-sm btn-custom d-none d-sm-block">Search Universities</button>
+          </div>
+          <div class="table-responsive mt-4">
+          <table class="table text-secondary table-striped">
+            <thead class="" style="background-color: #f6f8f8;">
+              <tr>
+                <th scope="col">Program</th>
+                <th scope="col">University</th>
+                <th scope="col">Status</th>
+                <th scope="col">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Master of Arts in Economics	</td>
+                <td>Mississippi State University	</td>
+                <td>Otto</td>
+                <td> <button class="btn btn-secondary btn-xs">view <i class="fas fa-arrow-right"></i></button></td>
+              </tr>
+              <tr>
+                <td scope="row">Master of Arts in Art History	</td>
+                <td>University of Wisconsin-Milwaukee	</td>
+                <td>tdornton</td>
+                <td><button class="btn btn-secondary btn-xs">view <i class="fas fa-arrow-right"></i></button></td>
+              </tr>
+              <tr>
+                <td scope="row">Master of Business Administration in General Management (MBA)	</td>
+                <td>Robert Morris University	</td>
+                <td>the Bird</td>
+                <td><button class="btn btn-secondary btn-xs">view <i class="fas fa-arrow-right"></i></button></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+      <!-- shortlisted university -->
+     
+      <!-- Documents -->
+      <div class="row">
+        <div class="col">
+          <div class="mt-5 mb-4">
+          <div class="float-left">
+          <h3>Documents</h3>
+          <hr class="custom-hr" align="left" width="40%">
+          </div>
+          <button class="float-right btn btn-sm btn-custom">Upload Document</button>
+          </div>
+          
+          <div class="table-responsive">
+          <table class="table text-secondary table-striped">
+            <thead class="" style="background-color: #f6f8f8;">
+              <tr>
+                <th scope="col">File Name</th>
+                <th scope="col">Category</th>
+                <th scope="col">Uploaded on</th>
+                <th scope="col">View</th>
+                <th scope="col">Delete</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">Master of Arts in Economics	</td>
+                <td>Mississippi State University	</td>
+                <td>Otto</td>
+                <td> <button class="btn btn-xs btn-secondary">view</button></td>
+                <td> <button class="btn btn-xs btn-light">delete</button></td>
+              </tr>
+              <tr>
+                <td scope="row">Master of Arts in Economics	</td>
+                <td>Mississippi State University	</td>
+                <td>Otto</td>
+                <td> <button class="btn btn-xs btn-secondary">view</button></td>
+                <td> <button class="btn btn-xs btn-light">delete</button></td>
+              </tr>
+              <tr>
+                <td scope="row">Master of Arts in Economics	</td>
+                <td>Mississippi State University	</td>
+                <td>Otto</td>
+                <td> <button class="btn btn-xs btn-secondary">view</button></td>
+                <td> <button class="btn btn-xs btn-light">delete</button></td>
+              </tr>
+              <tr>
+                <td scope="row">Master of Arts in Economics	</td>
+                <td>Mississippi State University	</td>
+                <td>Otto</td>
+                <td> <button class="btn btn-xs btn-secondary">view</button></td>
+                <td> <button class="btn btn-xs btn-light">delete</button></td>
+              </tr>
+              
+            </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+      <!-- Documents -->
+      <!-- Articles -->
+      <div class="row">
+        <div class="col">
+          <h3 class="text-center mt-5 ">Articles to read</h3>
+          <hr class="custom-hr mb-5" align="center" width="7%">
+          <div class="card-deck">
+  <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1534504700761-50a76b48a245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1650&q=80"
+                  height="180px"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1534504700761-50a76b48a245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1650&q=80"
+                  height="180px"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1534504700761-50a76b48a245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1650&q=80"
+                  height="180px"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="https://images.unsplash.com/photo-1534504700761-50a76b48a245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1650&q=80"
+                  height="180px"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+</div>
+        </div>
+      </div>
+      <!-- Articles -->
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="mt-5 pt-5 pb-3 footer">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col">
+              <h5 class="float-left pt-1">Follow Us:</h5>
+              <span><i class="fab fa-facebook-square ml-4 fa-3x"></i></span>
+            </div>
+          </div>
+          <hr />
+          <div class="row mt-5 mb-5">
+            <div class="col-lg-4 col-xs-12 about-company">
+              <h5 class="mb-4">About Us</h5>
+              <p class="pr-5">
+                gofickle is a web application which helps you to search for
+                specific program for masters in top universities across the USA
+              </p>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <h5 class="mb-4">Links</h5>
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link">My Universities</a></li>
+                <li class="nav-item"><a class="nav-link">My Account</a></li>
+                <li class="nav-item"><a class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-xs-12">
+              <h5 class="mb-4">Location</h5>
+              <p>New York, New York</p>
+              <p><i class="fa fa-envelope-o mr-3"></i>info@gofickle.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

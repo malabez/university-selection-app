@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gofickle</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation  -->
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://yt3.ggpht.com/-RZYi5isxH_M/AAAAAAAAAAI/AAAAAAAAAAA/rmWpoe2qZzI/s900-c-k-no/photo.jpg"
+            width="30"
+            height="30"
+            class="d-inline-block align-top mr-2"
+            alt=""
+          />
+          gofickle</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse float-right"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shortlisteds.html">My Universities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Predict</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profile.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="article.html">FeedBack</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="account.html">My Account</a>
+                <a class="dropdown-item" href="faq.html">Faq</a>
+                <a class="dropdown-item" href="policy.html">Privacy Policy</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log Out</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation -->
+    <!-- main content -->
+     <div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron text-center">
+        <div class="col-8 offset-2">
+          <h1 class="display-4 mt-3">Predicting The University</h1>
+          <p class="lead mt-4">Select the university from the dropdown and based on your profile it will predict whether you will be eligible to get admit or not</p>
+          <hr class="my-4 pb-5">
+          <p class="lead">
+            <div class="form-group">
+              <label class="label">Select University</label>
+              <select class="form-control" id="sage_value">
+                  <option>Alabama A &amp; M University</option>
+                  <option>Alabama State University</option>
+                  <option>Amridge University</option>
+                  <option>Auburn University</option>
+                  <option>Auburn University at Montgomery</option>
+                  <option>Columbia Southern University</option>
+                  <option>Faulkner University</option>
+                  <option>Heritage Christian University</option>
+                  <option>Jacksonville State University</option>
+                  <option>Oakwood University</option>
+                  <option>Samford University</option>
+                  <option>School Of Advanced Air And Space Studies</option>
+                  <option>South University Montgomery</option>
+                  <option>Spring Hill College</option>
+                  <option>Troy University</option>
+                  <option>Tuskegee University</option>
+                  <option>United States Sports Academy</option>
+                  <option>The University of Alabama</option>
+                  <option>University of Alabama at Birmingham</option>
+                  <option>University of Alabama in Huntsville</option>
+                  <option>University of Mobile</option>
+                  <option>University of Montevallo</option>
+                  <option>University of North Alabama</option>
+                  <option>University Of Phoenix–Birmingham Campus</option>
+                  <option>University of South Alabama</option>
+                  <option>University of West Alabama</option>
+                  <option>Virginia College-Birmingham</option>
+                  <option>George C Wallace State Community College-Hanceville</option>
+                  <option>Alaska Pacific University</option>
+                  <option>Alaska University Of Southeast</option>
+                  <option>University of Alaska Fairbanks</option>
+                  <option>University of Alaska Anchorage</option>
+                  <option>University of Alaska Fairbanks</option>
+                  <option>Acacia University</option>
+                  <option>Advancing Technology University Of</option>
+                  <option>Argosy University-Phoenix</option>
+                  <option>Arizona School Of Acupuncture And Oriental Medicine</option>
+                  <option>Arizona State University-Tempe</option>
+                  <option>De Vry University Glendale</option>
+                  <option>DeVry University-Arizona</option>
+              </select>
+              <br>
+              <br>
+              <label class="label">GPA</label>
+              <input type="number" class="form-control" id="gpa_value" placeholder="enter gpa">
+            </div>
+          </p>
+          <button class="text-center btn btn-primary" onclick="sage(320)">Predict</button>
+
+          <h3 id="result" class="mt-5 alret alert-info"></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- main content -->
+    <!-- footer -->
+    <footer>
+      <div class="mt-5 pt-5 pb-3 footer">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col">
+              <h5 class="float-left pt-1">Follow Us:</h5>
+              <span><i class="fa fa-facebook-square ml-4 fa-2x"></i></span>
+            </div>
+          </div>
+          <hr />
+          <div class="row mt-5 mb-5">
+            <div class="col-lg-5 col-xs-12 about-company">
+              <h5 class="mb-4">About Us</h5>
+              <p class="pr-5">
+                gofickle is a web application which helps you to search for
+                specific program for masters in top universities across the USA
+              </p>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <h5 class="mb-4">Links</h5>
+              <ul class="m-0 p-0">
+                <li>- <a href="#">My Universities</a></li>
+                <li>- <a href="#">My Account</a></li>
+                <li>- <a href="#">FAQ</a></li>
+                <li>- <a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-xs-12">
+              <h5 class="mb-4">Location</h5>
+              <p>New York, New York</p>
+              <p><i class="fa fa-envelope-o mr-3"></i>info@gofickle.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="apigClient1.js"></script> <!--sending data through apigateway-->
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.418.0.min.js"></script>
+    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="sage.js"></script>
+  </body>
+</html>

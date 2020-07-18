@@ -1,0 +1,92 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin-top:  6em;
+  background-color: #f0f3f4;
+  font-size: 14px;
+}
+html{
+  min-height: 100%;
+}
+.main-content{
+  min-height: 50em;
+}
+table{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.alert{
+  border-color: #1cb39b;
+}
+.card{
+  /* border-color: #1cb39b; */
+  /* box-shadow: 0 2px 2px -2px rgba(0,0,0,.2); */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+footer{
+  background-color: #f8f9fa;
+}
+.nav-item{
+  margin-left: 1.5em;
+}
+.custom-hr{
+  border: 1px solid orange;
+  margin-top: -5px;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: white;
+   border:  none;
+}
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+  background-color: #fafbfc;
+   border:  none;
+}
+
+.table-striped > tbody > tr > td, .table-striped > thead > tr > th { 
+  border: none;
+}
+.card-noborder{
+  border: none;
+}
+th{
+  font-weight: bold;
+  font: 15px;
+  color: black;
+} 
+
+.btn-custom{  
+  /* background-color: #7266ba; */
+  background-color: #7266ba;
+  color: white;
+  border: none;
+}
+.btn-xs{
+  font-size: 10px;
+}
+.btn-custom{
+  background-color: #fcba03;
+  color: white;
+  border-color: #fcba03;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active{
+    color: #fff;
+    background-color: #fcba03;
+    border-color: #fcba03;
+}
+.container-fluid{
+  padding: 0px 3em;
+}
+input{
+  padding: 0px 1.2em;
+}
+
+#searchButton{
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+}
+#searchModal{
+  z-index: 99999;
+}
+.active{
+  border-bottom: 2px solid orange;
+}
