@@ -1,3 +1,4 @@
+
 1. Introduction
 
 While applying for universities, a lot of students face difficulty in shortlisting and searching for those that correctly fit to their needs; it is a hassle given the myriad of information. To address this issue, we have created a web application called Gofickle, which uses AWS services. It takes an aggregation of 2100 university which contains numerous programs that a user can select from and analyze according to their profile to know if they are eligible for that specific program; this is done using machine learning. We are also analyzing user click stream data to understand the user preferences.
@@ -9,3 +10,6 @@ Predict feature : Here the user can predict the reachability of a university bas
 Search Tab: Here we have provided the user with an ability to search for colleges based on the Major. For example, the user can search for “law” in the major search field. The result would be a list of programs that offer different set of law programs at different universities.
 FeedBack : Here the user can send feedback to the developers.
 DropDown: Here we have provided the user to see the privacy policy of the website. Also, this dropdown option provides the Logout option.
+
+
+<img width="1280" alt="Screen Shot 2021-06-09 at 12 36 14 PM" src="https://user-images.githubusercontent.com/12201059/121394404-4b559080-c91f-11eb-85a3-9d166e0b051f.png">
