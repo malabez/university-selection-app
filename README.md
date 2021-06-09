@@ -6,10 +6,14 @@ While applying for universities, a lot of students face difficulty in shortlisti
 2. Implementation
 
 The user can access the system with a simple Login/Signup page. We allow users to login/sign up with Facebook, Google, or our own custom login/signup. When the user signs up we get the username, gre/toefl, gpa, name, and address. With the given information we create a session of the user. We are also maintaining the user data in a tab called My Profile. The user can also choose to alter their information.
+
 Once the user is authenticated, they are directed towards their dashboard called My University. In the dashboard, the user can shortlist programs of different university based on their liking and maintain a status of the program - Accepted or Interested.
+
 Predict feature : Here the user can predict the reachability of a university based on their gpa and gre. We are using sagemaker to analyze the data received from the user and based on that we are predicting if the university is “Reachable” or “Not Reachable“ given the users profile.
+
 Search Tab: Here we have provided the user with an ability to search for colleges based on the Major. For example, the user can search for “law” in the major search field. The result would be a list of programs that offer different set of law programs at different universities.
 FeedBack : Here the user can send feedback to the developers.
+
 DropDown: Here we have provided the user to see the privacy policy of the website. Also, this dropdown option provides the Logout option.
 
 
